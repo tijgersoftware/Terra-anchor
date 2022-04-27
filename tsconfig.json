@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "strict": false,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "dist"
+  },
+  "include": [
+    "hardhat.config.ts",
+    "./scripts",
+    "./deploy",
+    "./setup",
+    "./test",
+    "typechain/**/*"
+, "constants.ts", "noGit/index.ts", "testStock/001_metavaults.ts", "testStock/002_metavaults.ts", "testStock/001_web3_time.ts"  ]
+}
