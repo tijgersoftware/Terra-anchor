@@ -2,7 +2,7 @@
 
 ## configuration
 
-fill in .env file
+Fill in .env file
 
 
 ## installing dependencies
@@ -13,7 +13,7 @@ Node 16
 yarn
 ```
 ## deploying and calling the functions
-run for deploying the contract and calling the functions. Remove the files from the deploy function when you don't want them to be called. Change the numbers to change the order of excecution. the functions are located at  Terra-anchor/scripts/deploy
+Run for deploying the contract and calling the functions. Remove the files from the deploy function when you don't want them to be called. Change the numbers to change the order of execution. The functions are located at  Terra-anchor/scripts/deploy
 
 ```
 yarn deploy:ropsten
@@ -42,11 +42,14 @@ my execution order is:
 3) approveUST function on smart contract (I am not sure if this is necessary)
 4) calling the depositStable function.
 
-I get following error when calling the depositStale function  UNPREDICTABLE_GAS_LIMIT;
+I get the following error when calling the depositStale function  UNPREDICTABLE_GAS_LIMIT;
 
-below You see the contract I try to make. It should take the UST of the user and deposit it on eth anchor.
+Below You see the contract I try to make. It should take the UST of the user and deposit it on eth anchor.
 
-Here is a github link to the hardhat repo of the contract so you can simulate the bug and hopefully help me solving this issue. You are also allowed to push your solution to the repo. 
+Here is a github link to the hardhat repo of the contract so you can simulate the bug and hopefully help me solving this issue.  
+
+
+https://github.com/tijgersoftware/Terra-anchor
 
 I thank you for taking the time to read my question!
 ```
